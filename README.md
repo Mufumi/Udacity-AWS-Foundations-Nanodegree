@@ -3,6 +3,4 @@ This is for the AWS Deep Racer tutorial
 
 **Simulation video trial**
 
-<p align="center">
-  <img width="200" src="https://github.com/Mufumi/AWS-Deep-Racer/blob/main/output(crop-video.com).mp4" alt="Simulation video">
-</p>
+![Simulation video trial](https://github.com/Mufumi/AWS-Deep-Racer/issues/1#issue-956491464)
