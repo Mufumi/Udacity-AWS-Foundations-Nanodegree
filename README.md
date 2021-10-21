@@ -7,3 +7,4 @@ This is for the AWS Deep Racer tutorial
 
 ## Hyperparameter Parameters
 
+### Huber
