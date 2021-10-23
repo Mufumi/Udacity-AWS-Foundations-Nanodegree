@@ -8,6 +8,22 @@ This is for the AWS Deep Racer tutorial
 
 ### Hyperparameter Parameters
 
+#### Gradient descent batch size
+
+#### Entropy
+
+#### Discount factor
+
+#### Loss type
+
+#### Learning rate
+
+#### Discount factor
+
+##### Number of experience episodes between each policy-updating iteration
+
+#### Number of epochs
+
 ### Environment simulation
 
 ### Reward function
@@ -17,3 +33,9 @@ This is for the AWS Deep Racer tutorial
 ### Action space type
 
 ### Action space
+
+### Framework
+
+### Reinforcment Learning Algorithm
+
+### 
