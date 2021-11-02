@@ -14,7 +14,11 @@ Gradient descent is an optimization algorithm often used for finding the weights
 
 #### Entropy
 
+Entropy is defined as randomness in the information being processed in your machine learning project from this [source](https://addepto.com/what-is-entropy-in-machine-learning/#:~:text=Simply%20put%2C%20entropy%20in%20machine%20learning%20is%20related,it%20means%20to%20you%20and%20your%20ML%20projects.)
+
 #### Discount factor
+ 
+The discount factor is a real value from 0 to 1 that cares for the rewards agent achieved in the past, present, and future-In different words, it relates the rewards to the time domain. This [article](https://towardsdatascience.com/penalizing-the-discount-factor-in-reinforcement-learning-d672e3a38ffe) describes how to optimize this parameter.
 
 #### Loss type
 
