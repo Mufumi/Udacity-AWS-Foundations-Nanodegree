@@ -10,6 +10,8 @@ This is for the AWS Deep Racer tutorial
 
 #### Gradient descent batch size
 
+Gradient descent is an optimization algorithm often used for finding the weights or coefficients of machine learning algorithms, such as artificial neural networks and logistic regression. This [link](https://machinelearningmastery.com/gentle-introduction-mini-batch-gradient-descent-configure-batch-size/) gives a brief definition.
+
 #### Entropy
 
 #### Discount factor
