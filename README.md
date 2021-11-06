@@ -22,9 +22,11 @@ The discount factor is a real value from 0 to 1 that cares for the rewards agent
 
 #### Loss type
 
-For this experiment, I chose the Huber loss function. This[link](https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3) provides an overview on the three most common loss functions for Machine Learning Regression
+For this experiment, I chose the Huber loss function. This [link](https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3) provides an overview on the three most common loss functions for Machine Learning Regression
 
 #### Learning rate
+
+This is a factor multiplied to the gradient descent that assists in training a ML model. A small learning rate can cause the ML model to take long to learn, whilst a large learning rate can exclude important learning steps. This [link](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate) describes how the learning rate can be chosen
 
 #### Discount factor
 
