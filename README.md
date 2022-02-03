@@ -31,6 +31,7 @@ For this experiment, I chose the Huber loss function. This [link](https://toward
 This is a factor multiplied to the gradient descent that assists in training a ML model. A small learning rate can cause the ML model to take long to learn, whilst a large learning rate can exclude important learning steps. This [link](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate) describes how the learning rate can be chosen.
 
 #### Experience iteration 
+
 Also known as the number of experience episodes between each policy-updating iteration, is a set of consecutive experiences between each policy iteration that performs updates of the policy network weights. At the end of each experience iteration, the collected episodes are added to an experience replay or buffer. The size can be set in one of the hyperparameters for training. The neural network is updated by using random samples of the experiences.  For this 
 
 #### Number of epochs
@@ -51,22 +52,20 @@ A simple reward function was chosen for this vehicle. It considered the track wi
 
 ### Sensors
 
-**Lidar, Stereo camera**
+The physical DeepRacer has either a Lidar or a Stereo camera as the sensory input. This [blog](https://www.ambarella.com/blog/a-closer-look-at-lidar-and-stereovision/) explains the comparison between the two technologies. For this simulation, the **Lidar** sensor was selected. It's precision within the simulated environment is however, questionable.
 
 ### Action space
 
-**Speed and Steering angle**
+The chosen action space in DeepRacer was a speed of **0.5 to 4 m/s** and a rotation angle between **-30 degrees and 30 degress**. The rotation angle was chosen to prevent the vehicle from zig-zagging in its exploratory phases.
 
 ### Action space type
 
-Choose between **continuous** and **discrete**
+A choice between a **continuous** and **discrete** action space type can be selected on the simulation. Provided the limitation of training time, the chosen action space type was selected to be continuous.
 
 ### Framework
 
-**Tensorflow**
+DeepRacer the **Tensorflow** framework to conduct its model training and evaluation.
 
 ### Reinforcment Learning Algorithm
 
-**PPO**
-
-### 
+Proximal Policy Optimization was selected as the 
