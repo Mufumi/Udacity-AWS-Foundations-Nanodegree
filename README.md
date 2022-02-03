@@ -38,16 +38,32 @@ This is a factor multiplied to the gradient descent that assists in training a M
 
 ### Environment simulation
 
+**Hotrod speedway**
+
+Performance of car is dependent on the track chose
+
 ### Reward function
+
+
 
 ### Sensors
 
-### Action space type
+**Lidar, Stereo camera**
 
 ### Action space
 
+**Speed and Steering angle**
+
+### Action space type
+
+Choose between **continuous** and **discrete**
+
 ### Framework
 
+**Tensorflow**
+
 ### Reinforcment Learning Algorithm
+
+**PPO**
 
 ### 
