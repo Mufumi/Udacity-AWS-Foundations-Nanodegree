@@ -32,7 +32,7 @@ This is a factor multiplied to the gradient descent that assists in training a M
 
 #### Discount factor
 
-##### Number of experience episodes between each policy-updating iteration
+#### Number of experience episodes between each policy-updating iteration
 
 #### Number of epochs
 
