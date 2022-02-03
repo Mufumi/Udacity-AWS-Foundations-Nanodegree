@@ -45,6 +45,9 @@ The **Hotrod speedway** was chosen as the environment the agent was going to be 
 
 A simple reward function was chosen for this vehicle. It considered the track width as well as the distance from the centre to allocate the reward.
 
+<p align="center">
+  <img width="200" src="https://github.com/Mufumi/Udacity-AWS-Foundations-Nanodegree/blob/main/Reward_function.png">
+</p>
 
 ### Sensors
 
