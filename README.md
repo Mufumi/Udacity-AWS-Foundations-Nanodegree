@@ -46,7 +46,6 @@ The **Hotrod speedway** was chosen as the environment the agent was going to be 
 A simple reward function was chosen for this vehicle. It considered the track width as well as the distance from the centre to allocate the reward.
 
 
-
 ### Sensors
 
 **Lidar, Stereo camera**
