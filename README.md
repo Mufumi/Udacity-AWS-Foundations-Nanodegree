@@ -6,7 +6,7 @@ This is for the AWS Deep Racer tutorial
 [![Deep Racer video trial](Screenshot (240).png)](https://user-images.githubusercontent.com/36229418/127618562-955e3c8d-3b3a-4d42-9123-7d5936e99501.mp4)
 ## Training configuration
 
-The primary parameters that needed configuration in this excerise are the hyperparameters. The Deep Racer executes in a simulated environment where the virtual vehicle is the agent and the track is the environment. The [concepts and terminology](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-basic-concept.html) describe how each variable in the simulation affects the output. Some of the parameters configured in the simulation include:
+The primary parameters that needed configuration in this exercise are the hyperparameters. The Deep Racer executes in a simulated environment where the virtual vehicle is the agent and the track is the environment. The [concepts and terminology](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-basic-concept.html) describe how each variable in the simulation affects the output. Some of the parameters configured in the simulation include:
 
 ### Hyperparameter Parameters
 
@@ -36,7 +36,7 @@ Also known as the number of experience episodes between each policy-updating ite
 
 #### Number of epochs
 
-An [epoch](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9) is defined as the complete passing of an entire dataset through a neural network both through its feedforwarf and feedback networks. A conservative choice of 10 epochs was chosen for this experiment.
+An [epoch](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9) is defined as the complete passing of an entire dataset through a neural network both through its feedforward and feedback networks. A conservative choice of 10 epochs was chosen for this experiment.
 
 ### Environment simulation
 
@@ -56,7 +56,7 @@ The physical DeepRacer has either a Lidar or a Stereo camera as the sensory inpu
 
 ### Action space
 
-The chosen action space in DeepRacer was a speed of **0.5 to 4 m/s** and a rotation angle between **-30 degrees and 30 degress**. The rotation angle was chosen to prevent the vehicle from zig-zagging in its exploratory phases.
+The chosen action space in DeepRacer was a speed of **0.5 to 4 m/s** and a rotation angle between **-30 degrees and 30 degrees**. The rotation angle was chosen to prevent the vehicle from zig-zagging in its exploratory phases.
 
 ### Action space type
 
@@ -66,6 +66,6 @@ A choice between a **continuous** and **discrete** action space type can be sele
 
 DeepRacer the **Tensorflow** framework to conduct its model training and evaluation.
 
-### Reinforcment Learning Algorithm
+### Reinforcement Learning Algorithm
 
 Proximal Policy Optimization (PPO) was selected as the algorithm of choice as opposed to the Soft Actor Critic (SAC). This was done because of the training limitation constraint as the PPO is more conservative when it comes to exploration. This [blog](https://towardsdatascience.com/understanding-and-implementing-proximal-policy-optimization-schulman-et-al-2017-9523078521ce) explains an approach to understanding the PPO algorithm.
