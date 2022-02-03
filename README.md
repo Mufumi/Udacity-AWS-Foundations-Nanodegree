@@ -68,4 +68,4 @@ DeepRacer the **Tensorflow** framework to conduct its model training and evaluat
 
 ### Reinforcment Learning Algorithm
 
-Proximal Policy Optimization (PPO) was selected as the algorithm of choice as opposed to the Soft Actor Critic (SAC). This was done because of the training limitation constraint as the PPO is more conservative when it comes to exploration. This [blog](https://towardsdatascience.com/understanding-and-implementing-proximal-policy-optimization-schulman-et-al-2017-9523078521ce) explians an approach to understanding the PPO algorithm.
+Proximal Policy Optimization (PPO) was selected as the algorithm of choice as opposed to the Soft Actor Critic (SAC). This was done because of the training limitation constraint as the PPO is more conservative when it comes to exploration. This [blog](https://towardsdatascience.com/understanding-and-implementing-proximal-policy-optimization-schulman-et-al-2017-9523078521ce) explains an approach to understanding the PPO algorithm.
