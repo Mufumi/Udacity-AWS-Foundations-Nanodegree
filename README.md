@@ -30,8 +30,6 @@ For this experiment, I chose the Huber loss function. This [link](https://toward
 
 This is a factor multiplied to the gradient descent that assists in training a ML model. A small learning rate can cause the ML model to take long to learn, whilst a large learning rate can exclude important learning steps. This [link](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate) describes how the learning rate can be chosen
 
-#### Discount factor
-
 #### Number of experience episodes between each policy-updating iteration
 
 #### Number of epochs
