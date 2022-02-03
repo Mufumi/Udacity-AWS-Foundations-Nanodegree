@@ -28,21 +28,22 @@ For this experiment, I chose the Huber loss function. This [link](https://toward
 
 #### Learning rate
 
-This is a factor multiplied to the gradient descent that assists in training a ML model. A small learning rate can cause the ML model to take long to learn, whilst a large learning rate can exclude important learning steps. This [link](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate) describes how the learning rate can be chosen
+This is a factor multiplied to the gradient descent that assists in training a ML model. A small learning rate can cause the ML model to take long to learn, whilst a large learning rate can exclude important learning steps. This [link](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate) describes how the learning rate can be chosen.
 
-#### Experience iteration (Number of experience episodes between each policy-updating iteration)
-
-
+#### Experience iteration 
+Also known as the number of experience episodes between each policy-updating iteration, is a set of consecutive experiences between each policy iteration that performs updates of the policy network weights. At the end of each experience iteration, the collected episodes are added to an experience replay or buffer. The size can be set in one of the hyperparameters for training. The neural network is updated by using random samples of the experiences.  For this 
 
 #### Number of epochs
 
+An [epoch](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9) is defined as the complete passing of an entire dataset through a neural network both through its feedforwarf and feedback networks. A conservative choice of 10 epochs was chosen for this experiment.
+
 ### Environment simulation
 
-**Hotrod speedway**
-
-Performance of car is dependent on the track chose
+The **Hotrod speedway** was chosen as the environment the agent was going to be trained in. This is important because the performance of the car is dependent on the track chosen. An algorithm can be tuned optimally but if the agent is trained in the wrong environment, its performance will degrade drastically
 
 ### Reward function
+
+A simple reward function was chosen for this vehicle. It considered the track width as well as the distance from the centre to allocate the reward.
 
 
 
