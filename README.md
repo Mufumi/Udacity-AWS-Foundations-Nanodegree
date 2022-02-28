@@ -20,7 +20,7 @@ Entropy is defined as randomness in the information being processed in your mach
 
 #### Discount factor
  
-The discount factor is a real value from 0 to 1 that cares for the rewards agent achieved in the past, present, and future-In different words, it relates the rewards to the time domain. This [article](https://towardsdatascience.com/penalizing-the-discount-factor-in-reinforcement-learning-d672e3a38ffe) describes how to optimize this parameter.
+The discount factor is a real value from 0 to 1 that cares for rewards the agent achieved in the past, present, and future-In different words, it relates the rewards to the time domain. This [article](https://towardsdatascience.com/penalizing-the-discount-factor-in-reinforcement-learning-d672e3a38ffe) describes how to optimize this parameter.
 
 #### Loss type
 
