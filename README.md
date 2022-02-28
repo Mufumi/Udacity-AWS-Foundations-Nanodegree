@@ -64,7 +64,7 @@ A choice between a **continuous** and **discrete** action space type can be sele
 
 ### Framework
 
-DeepRacer the **Tensorflow** framework to conduct its model training and evaluation.
+DeepRacer uses the **Tensorflow** framework to conduct its model training and evaluation.
 
 ### Reinforcement Learning Algorithm
 
