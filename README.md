@@ -6,7 +6,7 @@ This is for the AWS Deep Racer tutorial
 [![Deep Racer video trial](Screenshot (240).png)](https://user-images.githubusercontent.com/36229418/127618562-955e3c8d-3b3a-4d42-9123-7d5936e99501.mp4)
 ## Training configuration
 
-The primary parameters that needed configuration in this exercise are the hyperparameters. The Deep Racer executes in a simulated environment where the virtual vehicle is the agent and the track is the environment. The [concepts and terminology](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-basic-concept.html) page describes how each variable in the simulation affects the output. Some of the parameters configured in the simulation include:
+The primary parameters that needed configuration in this exercise are the hyperparameters. The Deep Racer executes in a simulated environment where the virtual vehicle is the agent, and the track is the environment. The [concepts and terminology](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-basic-concept.html) page describes how each variable in the simulation affects the output. Some of the parameters configured in the simulation include:
 
 ### Hyperparameter Parameters
 
